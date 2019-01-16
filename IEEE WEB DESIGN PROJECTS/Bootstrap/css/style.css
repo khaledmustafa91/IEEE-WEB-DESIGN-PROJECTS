@@ -1,0 +1,322 @@
+body{
+}
+
+/* start sction nav */
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand
+{
+    margin-left: 90px;
+    font-size: 1.75em;
+    color: #fed136;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-nav>li>a
+{
+    margin-right: 30px;
+}
+.navbar-inverse 
+.navbar-nav>li>a{
+    color: white;
+    font-weight: 400;
+    font-size: 90%;
+}
+.navbar-inverse 
+.navbar-nav>li>a:hover{
+
+color: #fed136;
+}
+/* end sction nav */
+
+/* start sction header */
+.header{
+    background-image: url(../img/header-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.header h2{
+    color: white;
+    margin-top: 300px;
+        font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.header h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#bot {
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding: 20px 40px;
+}
+/* end section header */
+
+/* Start section Service */
+
+.service {
+    padding-top: 90px; 
+}
+.service h1{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.service p{
+    color: #868e96;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.service .fa{
+    padding: 30px;
+    background-color: #fed136;
+    height: 130px;
+    width: 130px;
+    font-size: 75px;
+    border-radius: 50%;
+}
+
+.service h2 {
+    font-weight: bold;
+}
+
+/* End section Service */
+
+/* Start section PORTFOLIO */
+
+.PORTFOLIO{
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+.PORTFOLIO h1{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.PORTFOLIO p{
+    color: #868e96;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.PORTFOLIO img{
+    position: relative;
+    cursor: pointer;
+}
+.PORTFOLIO h2 {
+    font-weight: bold;
+}
+
+/* End section PORTFOLIO */
+
+/* Start section About */
+
+.About{
+    
+}
+.About h2{
+    font-weight: bold;
+}
+.About p{
+    color: #868e96;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.About .image{
+    border-radius: 50%;
+}
+
+
+
+/* End section About */
+
+
+/* Start section team */
+
+.team {
+    padding-top: 40px;
+}
+
+.team h1{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.team img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+    margin-top: 40px;
+}
+.team .word{
+    margin-top: 30px;
+    color: #868e96;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-transform: none;
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.team .img{
+    font-weight: bold;
+}
+
+.team .fa{
+    margin: 2px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: #000;
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.team .fa:hover{
+    background-color: #fed136;
+}
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img,
+.img-responsive, 
+.thumbnail a>img,
+.thumbnail>img{
+    display: inline;
+}
+
+
+
+@media (min-width: 768px){
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+     margin-right: -15px;
+     margin-left: -15px;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+        margin-left:0;
+    }
+    .navbar-nav>li>a{
+        margin-right: 0;
+    }
+}
+/* End section team */
+
+
+
+/* Start section client */
+.client {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    word-spacing: 60px;
+}
+.client ul li{
+    display: inline-block;
+}
+
+
+/* End section cleint */
+
+/* Start section contact */
+
+.contact{
+    padding-top: 60px;
+    background: url(../img/map-image.jpg) no-repeat center center fixed #000;
+    min-height: 600px;
+}
+.contact h2{
+    color: white;
+}
+.contact p{
+    color: #868e96;
+}
+
+.contact textarea{
+   height: 246px;
+    margin-bottom: 60px!important;
+}
+.contact .form-control{
+    margin-bottom: 15px;
+}
+.contact #bot{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.contact .form-control{
+    margin-top: 20px; 
+}
+.text{
+    margin-top: 150px;
+}
+
+.contact .ERROR{
+    color: red;
+    visibility: hidden;
+}
+/* End section contact */
+
+
+
+
+
+/* Start section Footer */
+.Footer{
+    margin-top: 20px;
+}
+.Footer .fa{
+    margin: 2px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: #000;
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.Footer .fa:hover{
+    background-color: #fed136;
+}
+.Footer span ,
+.Footer a{
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: none;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
+/* End section Footer */

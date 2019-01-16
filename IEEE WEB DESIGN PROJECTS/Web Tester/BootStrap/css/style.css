@@ -1,0 +1,156 @@
+body
+{
+    margin: 0;
+    height: 2000px;
+}
+/* start sction nav */
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand
+{
+    margin-left: 90px;
+    font-size: 2.50em;
+    color: ;
+    font-style:oblique;
+    font-family: 'Lobster', cursive;
+}
+.navbar-nav>li>a
+{
+    margin-right: 30px;
+    font-size: 300px;
+    font-family: 'Lobster', cursive;
+}
+.navbar-inverse 
+.navbar-nav>li>a{
+    color: white;
+    font-weight: 400;
+    font-size: 160%;
+    margin-left: 30px;
+}
+.navbar-inverse 
+.navbar-nav>li>a:hover{
+
+color: #3333ff;
+}
+/* end sction nav */
+
+/* Satrt Sction Header */
+.header
+{
+    background-image: url(../../img/8-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(2,2,2,0.7);
+    height: 700px;
+}
+.header h1
+{
+     color: black;
+    margin-top: 300px;
+    font-size: 57px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.header p
+{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+#bot {
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 40px;
+    margin-top: 45px;
+}
+
+
+/* End Sction Header */
+
+/* Start About Section */
+
+#about .text1
+{
+   
+    height: 300px;
+    font-family: 'Oswald', sans-serif;
+}
+#about .img1
+{
+   
+    height: 300px;
+}
+#about .img2
+{
+    
+    height: 300px;
+
+}
+#about .text2
+{
+    
+    height: 300px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+#about img
+{
+    
+    height: 200px;
+    width: 200px;
+    margin-left: 140px;
+}
+#about .carousel-inner>.item>a>img, 
+.carousel-inner>.item>img,
+.img-responsive, .thumbnail a>img, .thumbnail>img
+{
+    margin-top: 50px;
+}
+#about p
+{
+    margin-top: 88px;
+    font-size: 25px;
+    color: #868e96;
+}
+
+#about #test
+{ 
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+   font-family: 'Oswald', sans-serif;
+    padding: 20px 40px;
+    margin-top: 40px;
+    
+}
+
+.Error{
+    color: red;
+    font-size: 15px;
+    visibility: hidden;
+    margin-left: 2%;
+    font-family: italic;
+    font: bold;
+}
+#exampleModalLabel
+{
+    font-size: 25px;
+    font-family: italic;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#about h2
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+     font-family: 'Oswald', sans-serif;
+}
+/* End About Section */

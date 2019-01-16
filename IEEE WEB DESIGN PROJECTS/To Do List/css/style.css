@@ -1,0 +1,63 @@
+body{
+  margin-top: 110px;
+  background-image: url(../img/to.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ol {
+  list-style: none;
+  margin-left: 30px;
+}
+ol li{
+  margin-right: 95px;
+  color: white;
+  font-size: 25px;
+}
+span{
+  margin-left: 35px;
+  margin-right: 40px;
+  font-style: normal;
+}
+.check{
+  width: 30px;;
+  height: 15px;
+  color: red:
+}
+h2{
+  font-weight: 900;
+  color: white;
+}
+p{
+  font-family: cursive;
+  font-style: italic;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+button, input, optgroup, select, textarea{
+  color: black;
+  margin-bottom: 25px;
+}
+button{
+  width: 104px;
+  height: 41px;
+}
+.do{
+  max-width: 560px;
+  text-align: center;
+  margin-left: 375px;
+}
+.bt{
+  width: 77px;
+  height: 32px;
+ margin-left: 40px;
+}
+input[type=checkbox], input[type=radio]{
+  margin-right: 30px;
+}
+.panal{
+  width: 20px;
+  color: red;
+}

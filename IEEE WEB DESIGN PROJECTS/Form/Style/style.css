@@ -1,0 +1,57 @@
+body{
+    background-image: url(../img/dark-background_1048-3848.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 665px;
+    background-position: center;
+    opacity: 1.5;
+}
+.word{
+    color: white;
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-right: 45%;
+    font-family: arial;
+}
+
+.form{
+    padding: 30px;
+    margin-left: 40%;
+    text-align: left;
+    border-radius: 100px;
+}
+input{
+    font-family: italic;
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px; 
+}
+#bot{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    border: solid;
+    text-shadow: 1px 1px 1px white;
+    border-color: gray;
+    background-color: white;
+    font-family: italic;
+    transition-duration: 0.5s;
+
+}
+#bot:hover{
+    color: gray;
+    transition-duration: 0.5s;
+}
+.a{
+    color: white;
+}
+.Error{
+    color: red;
+    font-size: 15px;
+    visibility: hidden;
+    margin-left: 2%;
+    font-family: italic;
+    font: bold;
+}
